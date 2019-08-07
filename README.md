@@ -4,13 +4,14 @@
 
 # Description
 
-    Wildcart.
+    Wildcart Let's Encrypt Docker container.
+    for Sakura Cloud.
 
 # Changelog
 
 ## build-version 0
 
-    First Commit / ubuntu:18.04
+    First Commit / base ubuntu:18.04
 
 # Usage
 
@@ -30,8 +31,9 @@
 
 ### --volume
 
-    DOCKER_DEBUG 0
-    DNS_FORWARD 8.8.8.8
+    /.config
+    /.docker
+    /ssl
 
 ## Examples
 
@@ -49,7 +51,7 @@
 
 # ToDo
 
-    None
+    Other DNS Authority.
 
 # Other
 
